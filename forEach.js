@@ -41,7 +41,7 @@ console.log(arr);
 const live = ["강동", "중랑", "구로", "강남"];
 for (let i = 0; i < live.length; i++) {
   if (live.length[i] === "구로") {
-    console.log("하하");
+    console.log("구로입니다.");
   }
 }
 
@@ -89,8 +89,6 @@ function getNthElement(arr, index) {
 const test = [100, 50, 77, 44, 33];
 console.log(Math.max.apply(null, test));
 
-const obj = { name: "taesubhyun", age: { haha: "22222" } };
-console.log("name" in obj);
 
 function getType(anything) {
   if (anything === null) {
